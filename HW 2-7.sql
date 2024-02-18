@@ -1,5 +1,5 @@
 /*
-CREATE OR REPLACE FUNCTION pg_temp.decode_url_part(p varchar)
+CREATE OR REPLACE FUNCTION pg_temp.decode_url_part(p varchar) -- function
  RETURNS varchar
 AS $$
 	select convert_from
